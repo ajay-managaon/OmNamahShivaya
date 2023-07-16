@@ -1,0 +1,31 @@
+.topnavbar {
+  background-color: #0096FF;
+  height: 100px;
+}
+
+.menunavbar {
+  background-color: #6495ED;
+  height: 35px;
+}
+
+.mdc-button {
+  padding: 0 20px 0 20px;
+}
+
+.spacer {
+  flex: 0.9 0.9 auto;
+}
+
+.nav-images-content {
+  display: flex;
+  width: 50%;
+  justify-content: center;
+}
+
+.shanka{
+  width: 15%;
+}
+
+.chakra{
+  width: 16.5%;
+}

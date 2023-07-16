@@ -1,0 +1,20 @@
+<mat-toolbar class="topnavbar">
+  <div class="nav-images-content">
+    <img class="shanka" src="../../../assets/shanka.png" alt="">
+  </div>
+  <div class="nav-images-content">
+    <img class="chakra" src="../../../assets/chakra.jpg" alt="">
+  </div>
+</mat-toolbar>
+
+<mat-toolbar class="menunavbar">
+  <a [routerLink]="['about']" mat-button>About</a>
+  <a [routerLink]="['guruparampara']" mat-button>Guru Parampara</a>
+  <a [routerLink]="['courses']" mat-button>Courses</a>
+  <a [routerLink]="['teerthakshethra']" mat-button>Teertha Kshetra</a>
+  <a [routerLink]="['articles']" mat-button>Articles</a>
+  <div class="spacer"></div>
+  <a [routerLink]="['account/login']" mat-button>Login</a>
+</mat-toolbar>
+
+<router-outlet></router-outlet>
